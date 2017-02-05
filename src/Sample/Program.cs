@@ -1,10 +1,13 @@
 using System;
 
-class Program
+namespace Sample
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello World!");
-        Console.WriteLine($"3 + 5 = {new Calc().Add(3, 5)}");
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+            Console.WriteLine($"3 + 5 = {new Calc().Add(3, 5)}");
+        }
     }
 }

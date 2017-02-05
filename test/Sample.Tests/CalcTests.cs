@@ -2,13 +2,15 @@ using Xunit;
 
 namespace Sample.Tests
 {
-    public class Calc_Should
+    public class CalcTests
     {
         [Fact]
-        public void AddsTwoNumbersCorrectly()
+        public void AddShouldAddTwoNumbersCorrectly()
         {
             var result = new Calc().Add(3, 5);
-            Assert.Equal(1, result);
+            Assert.Equal(8, result);
         }
     }
+
+    // alternative: class Calc_AddShould, method AddTwoNumbersCorrectly()
 }

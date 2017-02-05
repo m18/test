@@ -1,7 +1,10 @@
-public class Calc
+namespace Sample
 {
-    public  int Add(int x, int y)
+    public class Calc
     {
-        return x + y;
+        public  int Add(int x, int y)
+        {
+            return x + y;
+        }
     }
 }
