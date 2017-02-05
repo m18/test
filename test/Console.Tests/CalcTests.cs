@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace Sample.Tests
+namespace Console.Tests
 {
     public class CalcTests
     {

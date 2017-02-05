@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <!--TODO: Check if this works in the next version.
-              Currently this targets files above the current dir (Sample.Tests), in another proj, which should not be the case-->
+              Currently this targets files above the current dir (Console.Tests), in another proj, which should not be the case-->
     <!--<Compile Include="**\*.cs" />-->
     <Compile Include="*.cs" />
   </ItemGroup>
@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/Sample/Sample.csproj" />
+    <ProjectReference Include="../../src/Console/Console.csproj" />
   </ItemGroup>
 
 </Project>

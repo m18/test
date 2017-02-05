@@ -1,4 +1,4 @@
-namespace Sample
+namespace Console
 {
     public class Calc
     {
