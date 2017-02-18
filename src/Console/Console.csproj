@@ -7,7 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="**\*.cs" />
+    <!--TODO: Check if this works in the next version.
+              Currently this targets files above the current dir (Console.Tests), in another proj, which should not be the case-->
+    <!--<Compile Include="**\*.cs" />-->
+    <Compile Include="*.cs" />
     <EmbeddedResource Include="**\*.resx" />
   </ItemGroup>
 
