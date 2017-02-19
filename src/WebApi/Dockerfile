@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:runtime
+FROM microsoft/dotnet:1.0.3-runtime
 
 WORKDIR /mynancyapi
 COPY . .
