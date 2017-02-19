@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:1.1.0-runtime-deps
+FROM microsoft/dotnet:1.1.0-runtime
 
 WORKDIR /mynancyapi
 COPY . .
